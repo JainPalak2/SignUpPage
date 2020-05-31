@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35608" started-at="2020-05-31T21:42:03 IST" finished-at="2020-05-31T21:42:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35608" started-at="2020-05-31T21:42:03 IST" finished-at="2020-05-31T21:42:39 IST">
+      <class name="nancy.Except">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:nancy.Except@614ddd49]" name="beforeTest" is-config="true" duration-ms="10802" started-at="2020-05-31T21:42:03 IST" finished-at="2020-05-31T21:42:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="reg()[pri:1, instance:nancy.Except@614ddd49]" name="reg" duration-ms="5795" started-at="2020-05-31T21:42:14 IST" finished-at="2020-05-31T21:42:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reg -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:nancy.Except@614ddd49]" name="getResult" is-config="true" duration-ms="4" started-at="2020-05-31T21:42:20 IST" finished-at="2020-05-31T21:42:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reg status=SUCCESS method=Except.reg()[pri:1, instance:nancy.Except@614ddd49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testLogin()[pri:2, instance:nancy.Except@614ddd49]" name="testLogin" duration-ms="1923" started-at="2020-05-31T21:42:20 IST" finished-at="2020-05-31T21:42:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:nancy.Except@614ddd49]" name="getResult" is-config="true" duration-ms="1" started-at="2020-05-31T21:42:21 IST" finished-at="2020-05-31T21:42:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Except.testLogin()[pri:2, instance:nancy.Except@614ddd49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testCart()[pri:3, instance:nancy.Except@614ddd49]" name="testCart" duration-ms="6677" started-at="2020-05-31T21:42:21 IST" finished-at="2020-05-31T21:42:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:nancy.Except@614ddd49]" name="getResult" is-config="true" duration-ms="1" started-at="2020-05-31T21:42:28 IST" finished-at="2020-05-31T21:42:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCart status=SUCCESS method=Except.testCart()[pri:3, instance:nancy.Except@614ddd49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testPayment()[pri:4, instance:nancy.Except@614ddd49]" name="testPayment" duration-ms="6913" started-at="2020-05-31T21:42:28 IST" finished-at="2020-05-31T21:42:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:nancy.Except@614ddd49]" name="getResult" is-config="true" duration-ms="2" started-at="2020-05-31T21:42:35 IST" finished-at="2020-05-31T21:42:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPayment status=SUCCESS method=Except.testPayment()[pri:4, instance:nancy.Except@614ddd49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:nancy.Except@614ddd49]" name="afterTest" is-config="true" duration-ms="3419" started-at="2020-05-31T21:42:35 IST" finished-at="2020-05-31T21:42:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- nancy.Except -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
